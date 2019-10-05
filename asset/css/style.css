@@ -447,6 +447,143 @@ width:30%;
 .socialIcons li a:hover{
     color:#8fd445
 }
+.pageTitle{
+    background-color:#8fd445;
+    text-align:center;
+    width:100%;
+    padding:20px 0;
+}
+.pageTitle span{
+color:white;
+font-size: 22px;
+}
+.innerHerochild{
+    background-image: url("../img/innerbg.png");
+    width:100%;
+    background-size:cover;
+    padding:85px 0 60px 0;
+    background-repeat: no-repeat;
+}
+.innerHeroCont{
+    color:white;
+}
+.innerTitle{
+    font-size:30px;
+}
+.innerText{
+    font-size:16px;
+}
+.Sponer{
+    background-color: #8fd445;
+    font-size:14px;
+    color:white;
+    width:135px;
+    border-radius: 0;
+    padding:16px;
+    margin-top:25px;
+}
+.saveCont{
+    padding:35px 0 70px 0;
+    width:100%;
+    background-color: #fafafa;
+
+}
+.childCont.card{
+width:100%;
+background-color:#f0f1f3;
+padding-top:35px;
+border:0;
+margin-bottom:30px;
+}
+.childCont.card .card-title{
+    font-size:20px;
+    margin-bottom:0;
+}
+.childCont.card .card-text{
+    font-size:14px;
+    color:#afafaf;
+    margin-bottom:0;
+    margin-top:18px;
+    line-height: 2;
+}
+.childimg{
+    width:170px;
+    height:170px;
+    margin:0 auto;
+
+}
+.card-img-top{
+    border-radius: 50%;
+}
+.pagenationNav{
+    margin-top:20px;
+}
+.pagenationNav .page-link{
+    margin-right:13px;
+    background-color: white;
+    border:0 !important;
+    padding:15px;
+    box-shadow:0 0 5px 0px rgba(0,0,0,.1);
+    border-radius: 0 !important;
+    border-radius: 8px !important;
+    color:black;
+    font-size:14px;
+    line-height: 1;
+}
+.pagenationNav .page-item.active .page-link{
+background-color: #6eae62;
+color:white;
+}
+.Galleryimg{
+    margin-bottom:10px;
+}
+.GalleryCont{
+    background-color: #fafafa;
+    padding:30px 0 50px 0;
+    width:100%;
+    position: relative;
+}
+.GalleryCont img{
+    position: relative;
+}
+.imgtext{
+    position: absolute;
+    width:90%;
+    left:5%;
+background-color:rgba(0,0,0,.6);
+bottom:7%;
+color:white;
+padding:5px 10px;
+}
+.searchicon{
+   padding:15px 20px;
+    color:white;
+    background-color: #8fd445;
+    border-radius: 50%;
+    position: absolute;
+    left:45%;
+    top:40%;
+    font-size: 20px;
+    text-align: center;
+}
+.lSPrev,.lSNext{
+font-size:40px !important;
+color:white !important;
+
+}
+#lightSlider .imgtext{
+width:50%;
+left:30px;
+background-color:rgba(0,0,0,.4);
+
+}
+#lightSlider .Galleryimg{
+    position: relative;
+}
+.DonatCont{
+    padding:50px 0;
+}
+/********************************************/
  @media (max-width: 767px){
     .countnum{
         font-size:32px;
@@ -469,4 +606,6 @@ width:30%;
     .countDetails{
         font-size:16px;
     }
+
+
 }
