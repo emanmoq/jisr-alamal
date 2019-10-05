@@ -194,7 +194,7 @@ margin-bottom: 25px;
 .sliderCont{
     position: absolute;
     bottom:80px;
-    left:25%;
+    left:32%;
 }
 .workSlider{
     height:520px !important;
@@ -446,4 +446,27 @@ width:30%;
 }
 .socialIcons li a:hover{
     color:#8fd445
+}
+ @media (max-width: 767px){
+    .countnum{
+        font-size:32px;
+    }
+    .countCont{
+        margin-bottom:40px;
+    }
+    .counterSec{
+        padding:50px 0;
+    }
+    .footerMenu{
+        margin-top:20px;
+    }
+    .workSection .title{
+        padding:20px;
+    }
+    .heroText span{
+        font-size:35px
+    }
+    .countDetails{
+        font-size:16px;
+    }
 }

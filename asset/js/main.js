@@ -13,13 +13,34 @@ $(document).ready(function () {
         loop:true,
         nav:true,
         dots:true,
-        items:4,
         margin:15,
+        responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:4
+          }
+      }
     });
     $('.newsSlider').owlCarousel({
         loop:true,
-        items:3,
-        margin:30
+ 
+        margin:30,
+        responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:2
+          },
+          1000:{
+              items:3
+          }
+      }
     });
     $('.TestSlider').owlCarousel({
         loop:true,
