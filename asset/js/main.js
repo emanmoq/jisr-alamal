@@ -13,7 +13,8 @@ $(document).ready(function () {
         loop:true,
         nav:true,
         dots:true,
-        items:4
+        items:4,
+        margin:15,
     });
     $('.newsSlider').owlCarousel({
         loop:true,
