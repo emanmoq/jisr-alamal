@@ -48,6 +48,12 @@ $(document).ready(function () {
         items:1,
         navText: ["<i class='fas fa-chevron-left'></i>", " <i class='fas fa-chevron-right'></i>"]
     });
+    $('.donateSlider').owlCarousel({
+      loop:true,
+      nav:true,
+      items:1,
+      navText: ['<i class="lni-chevron-left"></i>', ' <i class="lni-chevron-right"></i>']
+  });
     $(window).scroll(function () {
         scrollTop = $(window).scrollTop();
 
@@ -83,9 +89,7 @@ $(document).ready(function () {
 
   for (j = 0; j < countersQuantity; j++) {
     count(0, counter[j], j);
-  }
-
-    
+  }  
   $("#lightSlider").lightSlider({
     item: 1,
     autoWidth: false,
