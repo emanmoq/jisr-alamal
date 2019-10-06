@@ -580,7 +580,7 @@ background-color:rgba(0,0,0,.4);
 #lightSlider .Galleryimg{
     position: relative;
 }
-.DonatCont{
+.DonatCont,.ContactCont{
     padding:50px 0;
     background-color:#fafafa;
 }
@@ -605,7 +605,7 @@ right:0;
 .donateImgCont{
     position: relative;
 }
-.donateDesc ,.donatBox{
+.donateDesc ,.donatBox,.contactFormBox{
     padding:60px 70px;
     background-color:white;
     color:#cdcdcd;
@@ -636,6 +636,7 @@ color:black;
     border:0;
     padding:20px;
     border-radius: 0;
+    height: 55px;
 }
 .form-control::placeholder{
     font-size:14px;
@@ -652,6 +653,107 @@ color:black;
 textarea{
     resize: none;
 }
+.money{
+visibility: hidden;
+}   
+ .form-control.moneyLabel{
+    font-size:14px;
+    color:#939393;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    border:1px solid transparent;
+    width:100px;
+    padding:0;
+
+}
+.radioGroup{
+    display: inline-block;
+    margin-right:20px;
+
+}
+.form-control.moneyLabel:hover{
+color:#8fd445;
+border:1px solid #8fd445;
+}
+
+.contactFormBox h4{
+font-size:20px;
+color:black;
+}
+.contactFormBox p{
+font-size:14px;
+color:#aeaeae;
+}
+.contactFormBox form{
+    margin-top:20px;
+}
+.contactFormBox ul{
+    padding:0;
+    margin-top:20px;
+}
+.contactFormBox ul li{
+    list-style-type: none;
+    color:#4d5168;
+    font-size:16px;
+    margin-bottom:18px;
+}
+.contactFormBox .ContactinformationList  i{
+margin-right:5px;
+color:black;
+}
+.informationBox.contactFormBox{
+    padding:60px 50px;
+}
+.socialConact{
+    margin-top:10px;
+}
+.socialConact span{
+    margin-right:10px;
+    height:30px;
+    width:30px;
+    line-height: 30px;
+    text-align: center;
+    color:white;
+    border-radius: 50%;
+}
+.socialLink{
+color:white;
+}
+
+.socialConact span.facebook{
+  background-color:#3b5998;  
+  transition: 1s all;
+}
+.socialConact span.facebook:hover,.socialConact span.twitter:hover,.socialConact span.youtube:hover{
+    background-color:white;
+    transition: 1s all;
+}
+  .socialConact span.facebook:hover .socialLink{
+    color:#3b5998 !important;
+    transition: 1s all;
+  }
+
+.socialConact span.twitter{
+    background-color:#26a6d1;
+    transition: 1s all;
+  
+}
+.socialConact span.twitter:hover .socialLink{
+    color:#26a6d1 !important;
+    transition: 1s all;
+  }
+
+.socialConact span.youtube{
+    background-color:#c4302b;
+    transition: 1s all;
+  
+}
+.socialConact span.youtube:hover .socialLink{
+    color:#c4302b !important;
+    transition: 1s all;
+  }
+
 /********************************************/
  @media (max-width: 767px){
     .countnum{
@@ -675,6 +777,17 @@ textarea{
     .countDetails{
         font-size:16px;
     }
+.donateDesc,.contactFormBox,.donatBox,.informationBox.contactFormBox{
+    padding:10px;
+}
 
-
+.inlinegroup{
+    width:100%;
+}
+.form-group.lastinput{
+    margin-left:0;
+}
+.donateSlider .owl-next,.donateSlider .owl-prev{
+top:10%;
+}
 }
