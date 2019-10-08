@@ -38,7 +38,7 @@
 
                 <div class="col-lg-6 col-md-6 col-12">
 
-                    <div class="contactFormBox CardBox">
+                    <div class="contactFormBox CardBox clearfix">
                         <h4>Card Infornmation</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eligendi, placeat saepe
                             doloremque, perspiciatis commodi ipsam nesciunt modi beatae dolorum,.</p>
@@ -49,42 +49,53 @@
                             <div class="form-group">
                                 <input type="text" placeholder="0000 0000 0000 0000" class="form-control ">
                             </div>
-                            <div class="form-group monthyear">
-                                <input type="text" placeholder="Month" class="form-control">
-                            </div>
-                            <div class="form-group monthyear">
-                                <input type="text" placeholder="Year" class="form-control">
-                            </div>
-                            <div class="form-group monthyear">
-                                <input type="text" placeholder="CVV" class="form-control">
+                            <div>
+                                <div class="form-group monthyear">
+                                    <input type="text" placeholder="Month" class="form-control">
+                                </div>
+                                <div class="form-group monthyear">
+                                    <input type="text" placeholder="Year" class="form-control">
+                                </div>
+                                <div class="form-group monthyear">
+                                    <input type="text" placeholder="CVV" class="form-control">
+                                </div>
                             </div>
 
+                            <button type="submit" class="btn form-btn pay-btn float-right">pay(100%)</button>
                         </form>
+
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                     <div class="informationBox contactFormBox CardBox">
-                        <h4>Contact Information</h4>
-                        <ul>
-                            <li class="ContactinformationList">
-                                <span><i class="fas fa-phone-alt"></i> +970 598 222 999</span>
-                            </li>
-                            <li class="ContactinformationList">
-                                <span><i class="fas fa-at"></i> contact@jisralamal.com</span>
-                            </li>
-                            <li class="ContactinformationList">
-                                <span><i class="fas fa-fax"></i> +970 598 222 986</span>
-                            </li>
-                            <li class="socialConact">
-                                <span class="facebook"><a class="socialLink" href="#"><i
-                                            class="fab fa-facebook-f"></i></a></span>
-                                <span class="twitter"><a class="socialLink" href="#"><i
-                                            class="fab fa-twitter"></i></a></span>
-                                <span class="youtube"><a class="socialLink" href="#"><i
-                                            class="fab fa-youtube"></i></a></span>
-
-                            </li>
-                        </ul>
+                        <h4>Pay Pal</h4>
+                        <div class="payCards">
+                            <div class="paypal">
+                                <a href="#">
+                                    <div class="payPalImg">
+                                        <img src="https://www.paypalobjects.com/images/shared/paypal-logo-129x32.svg"
+                                            alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="cards ">
+                                <div class="cardimg">
+                                    <a href=""></a> <img src="asset/img/c1.png" alt="">
+                                </div>
+                                <div class="cardimg">
+                                    <a href=""></a> <img src="asset/img/c2.png" alt="">
+                                </div>
+                                <div class="cardimg">
+                                    <a href=""></a> <img src="asset/img/c3.png" alt="">
+                                </div>
+                                <div class="cardimg">
+                                    <a href=""></a> <img src="asset/img/c4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sig text-center">
+                                <i class="power">powerd by</i><img src="asset/img/paypal.png" alt="">
+                        </div>
 
                     </div>
 
@@ -170,22 +181,12 @@
             </div>
         </div>
     </div>
-    <script>
-        var map;
-        function initMap() {
-            map = new google.maps.Map(document.getElementById('map'), {
-                center: { lat: -34.397, lng: 150.644 },
-                zoom: 8
-            });
-        }
-    </script>
+
     <script src="asset/js/jquery.min.js"></script>
     <script src="asset/js/popper.min.js"></script>
     <script src="asset/js/bootstrap.min.js"></script>
     <script src="asset/js/owl.carousel.js"></script>
     <script src="asset/js/owl.carousel.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWZJ97WjmF5OBeftsvQBnGuYoWg8VNh-g&callback=initMap"
-        async defer></script>
     <script src="asset/js/main.js"></script>
 
 
