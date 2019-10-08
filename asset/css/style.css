@@ -295,10 +295,8 @@ text-align: left;
 .newsSliderItem .card-body{
     padding-bottom:40px;
 }
-
-
-.card-body{
-    padding:35px 35px 45px !important
+.newsSliderItem .card-body{
+    padding:35px 35px 45px ;
 }
  .card-title{
     font-size:20px;
@@ -1106,6 +1104,38 @@ padding: 30px 10px;
     .CategList li a{
         color:#6eb83f;
     }
+    .PopularPostBox{
+        background-color: #f4f4f4;
+        border-radius: 10px;
+        margin-bottom:13px;
+    }
+    .PopularImg{
+        width:30%;
+    }
+.PopularDesc{
+    text-align: center;
+    width:50%;
+    margin-left:10px;
+    padding-top:25px;
+}
+.PopularDesc span{
+    font-size: .825em;
+}
+.searchBox.categ.pop{
+    padding-bottom:5px;
+}
+.NewsPagebtn{
+    font-size:.8em;
+    width:auto;
+    height:auto;
+    padding:15px 30px;
+}
+.singleNews .card-body{
+    padding:25px 20px;
+}
+.singleNews .card-title{
+    font-size:16px;
+}
 /********************************************/
  @media (max-width: 767px){
      .navbar-toggler{
