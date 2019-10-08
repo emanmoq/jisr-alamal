@@ -594,6 +594,7 @@ background-color:rgba(0,0,0,.6);
 bottom:7%;
 color:white;
 padding:5px 10px;
+font-size: .75em
 }
 .searchicon{
    padding:15px 20px;
@@ -814,15 +815,15 @@ color:white;
     padding:30px !important;
 }
 .card.projectPage .card-title{
-font-size:24px;
-line-height: 1.5;
+font-size:1.125em;
+line-height: 2;
 
 }
 .projectDonat{
     background-color: #8fd445;
     color:white;
     border-radius: 0;
-    font-size:18px;
+    font-size:1em;
 }
 .privacy-title{
 font-size:20px;
@@ -838,13 +839,124 @@ font-size:20px;
     font-size:14;
     color:#9b9b9b;
 }
+.teamBox{background-color:white;
+padding:60px;}
+.teamMember{
+    margin-bottom:60px;
+}
 .teamMemberImg{
-    width:100%;
+    width:190px;
     height:190px;
+    margin:auto;
 }
 .teamMemberImg img{
 border-radius:50%;
+height: 100%;
 }
+.memDesc{
+    margin-top:25px;
+}
+.memDesc h4 {
+    font-size:1.125em;
+}
+.memDesc span{
+color:#b2b2b2;
+font-size:1em;
+display: block;
+}
+.teamMemberImg.teamimgSmall{
+    width:155px;
+    height:155px;
+}
+.ProjImg{
+    position: relative;
+}
+.projtext{
+    position: absolute;
+    left:0;
+    bottom:10%;
+    background-color:white;
+    width:30%;
+    padding:20px 28px;
+}
+.projtext .projectDonat{
+    font-size:14px;
+}
+.projBox p{
+    font-size:1em;
+    color:#9b9b9b;
+    padding:4%;
+}
+.projBox{
+    background-color:white;
+    width:100%;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,.1)
+}
+.projtext .card-title{
+    line-height: 1.5;
+}
+.projSliderSection{
+    margin-top:50px;
+}
+.projSliderSection h6{
+    font-size:1.25em;
+}
+.projectSlider{
+    margin-top:20px;
+}
+.projectSlider .owl-prev,.projectSlider .owl-next{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #000;
+    color: white;
+    top: 30%;
+    line-height: 40px;
+    position: absolute;
+    transition: all .5s;
+
+}
+.projectSlider .owl-prev:hover,.projectSlider .owl-next:hover{
+transform: scale(1.1);
+transition: all .5s;
+}
+.projectSlider .owl-prev{
+left:0;
+}
+.projectSlider .owl-prev:hover{
+    left:2;
+    }
+.projectSlider .owl-next{
+right:0;
+}
+.projectSlider .owl-next:hover{
+    right:2;
+    }
+    .Galleryimg.Video .imgtext{
+        background-color: black;
+        width:100%;
+        bottom:0;
+        left:0;
+        
+    }
+    .Galleryimg.Video{
+        position: relative;
+    }
+    iframe{
+        
+        width:100%;
+    }
+    .form-group.monthyear{
+width:30%;
+display: inline-block;
+margin-right: 20px;
+    }
+    .form-group.monthyear:last-child{
+        margin-right:0;
+    }
+    .CardBox{
+        padding:50px 30px;
+    }
 /********************************************/
  @media (max-width: 767px){
      .navbar-toggler{
@@ -939,5 +1051,21 @@ left:37%;
 }
 .donateSlider .owl-next,.donateSlider .owl-prev{
 top:10%;
+}
+.projtext{
+    padding:5px;
+    width:70%
+}
+.dropdown-menu{
+    left: auto;
+    background: white;
+    border:1px solid white;
+    top: -31px !important;
+    left: 84px !important;
+
+}
+.dropdown-menu a{
+    color: black;
+
 }
 }

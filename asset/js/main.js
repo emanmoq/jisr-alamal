@@ -54,6 +54,23 @@ $(document).ready(function () {
       items:1,
       navText: ['<i class="lni-chevron-left"></i>', ' <i class="lni-chevron-right"></i>']
   });
+      $('.projectSlider').owlCarousel({
+        loop:true,
+        nav:true,
+        navText: ['<i class="lni-chevron-left"></i>', ' <i class="lni-chevron-right"></i>'],
+        margin:30,
+        responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:2
+          },
+          1000:{
+              items:3
+          }
+      }
+    });
     $(window).scroll(function () {
         scrollTop = $(window).scrollTop();
 
