@@ -1,5 +1,6 @@
 $(document).ready(function () {
-  
+  new WOW().init();
+
     $('.heroSlider').owlCarousel({
         loop:true,
         nav:true,
@@ -151,6 +152,7 @@ $(document).ready(function () {
 
 
 });
+
 
 });
 
