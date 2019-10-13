@@ -723,6 +723,10 @@ visibility: hidden;
     margin-right:20px;
 
 }
+.payDonate{
+    border-radius: 0;
+    padding:5px 15px;
+}
 .form-control.moneyLabel:hover{
 color:#8fd445;
 border:1px solid #8fd445;
@@ -1372,5 +1376,12 @@ top:10%;
 }
 .aboutCont{
     margin-bottom:30px;
+}
+.page-link i{
+    display: none;
+}
+.radioGroup {
+    width:30%;
+    margin-right:5px;
 }
 }
