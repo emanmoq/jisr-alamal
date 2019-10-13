@@ -75,9 +75,17 @@ z-index: 15;
     border:1px solid white;
     top:60px;
 
+
+}
+.submenu .dropdown-menu{
+    background-color: white;
 }
 .dropdown-menu a{
     color: #fff;
+
+}
+.submenu .dropdown-menu a{
+    color: black;;
 
 }
 .scrollNav .dropdown-menu{
