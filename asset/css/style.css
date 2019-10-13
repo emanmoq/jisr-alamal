@@ -1150,21 +1150,56 @@ padding: 30px 10px;
 }
 .aboutBox{
     width:100%;
-    padding:80px 40px;
-    margin-bottom:30px;
+    padding:80px 40px;    height:100%;
+
 }
 .YellowOverlay{
-background-color:rgba(195, 193, 49, .15);
+    background-image: url("../img/about1.png");
 position: absolute;
 left:0;
 top:0;
 width:100%;
 height: 100%;
 z-index: 1;
+opacity:.15
 }
 .OurMission{
-    background-image: url("../img/about1.png");
+    background-color:rgba(195, 193, 49);
     position: relative;
+    z-index: 0;
+}
+.OurVision{
+    background-color:rgba(46, 158, 144,.80);
+}
+.greenOverlay{
+    background-image: url("../img/about1.png");
+}
+.ourSurg{
+    background-color:#4a63aa;
+}
+.blueOverlay{
+    background-image: url("../img/about1.png");
+}
+.donate1{ 
+    height:100%;
+    position: relative;
+    background-image:url("../img/about11.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    z-index:1;
+}
+.donate1 .overlay{
+    background-color: rgba(0,0,0,.50);
+    z-index: -1;
+}
+.donate1 h5{
+    color:white !important;
+}
+.donate1 .Donate{
+    margin-top:20px;
+}
+.donate1 .DonateTxt{
+    padding:100px 20px;
 }
 .aboutTitle{
     font-size:1.875em;
@@ -1174,6 +1209,51 @@ z-index: 1;
 .aboutBox p{
     font-size:.856em;
     color:white;
+}
+.childDonate{
+    width:100%;
+    background-color: white;
+    height:100%;
+}
+.aboutCont{
+    height: 400px;
+}
+.DonateTxt{
+    padding:40px;
+}
+ .DonateTxt h5{
+    font-size:1.375em;
+    color:black;
+}
+a:hover{
+    text-decoration: none;;
+}
+.DonateTxt h5:hover{
+    color:#8fd445;
+
+}
+.greenbg h5{
+    color:white;
+}
+.greenbg:hover h5{
+    color:black;
+
+}
+.greenbg{
+    background-color:#8fd445;
+}
+
+.submenu{
+    position: relative !important;
+}
+.submenu .nav-link{
+    color:black ;
+}
+.submenu .nav-link:hover{
+    color:#8fd445;
+}
+.margin-row{
+    margin-bottom:30px;
 }
 /********************************************/
  @media (max-width: 767px){
@@ -1286,5 +1366,11 @@ top:10%;
 .dropdown-menu a{
     color: black;
 
+}
+.aboutBox{
+    padding:20px;
+}
+.aboutCont{
+    margin-bottom:30px;
 }
 }

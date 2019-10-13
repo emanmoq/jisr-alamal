@@ -72,21 +72,22 @@ $(document).ready(function () {
           }
       }
     });
-    $(window).scroll(function () {
-        scrollTop = $(window).scrollTop();
+ 
+        $(window).scroll(function () {
+          scrollTop = $(window).scrollTop();
+  
+           if( scrollTop >$('.main-menu').height()){
+              $('.main-menu').addClass('scrollNav');
+  
+           }
+           else{
+              $('.main-menu').removeClass('scrollNav');    
+  
+           }
+           
+     
+          });
 
-         if( scrollTop >$('.main-menu').height()){
-            $('.main-menu').addClass('scrollNav');
-
-
-         }
-         else{
-            $('.main-menu').removeClass('scrollNav');    
-
-         }
-         
-   
-        });
         var counters = $(".countnum");
   var countersQuantity = counters.length;
   var counter = [];
