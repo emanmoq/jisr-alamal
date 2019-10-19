@@ -170,14 +170,15 @@ right:10%;
 .owl-dots{
     position: absolute;
     bottom: 20px;
-    left:46%;
     z-index: 66666;
+    width:100%;
+    text-align: center;
 }
 .heroSlider .owl-dots .owl-dot{
 width:10px;
 height:10px;
 border:2px solid white;
-margin-left:10px;
+margin:5px;
 border-radius: 50%;
 display: inline-block;
 }
@@ -188,9 +189,10 @@ background-color: white;
 position: absolute;
 top:40%;
 z-index: 11;
-left:22%;
 color:white;
 font-weight: 500;
+width:100%;
+text-align: center;
 }
 .heroText span{
     font-size:3em;
@@ -1352,6 +1354,10 @@ left:37%;
     }
 .donateDesc,.contactFormBox,.donatBox,.informationBox.contactFormBox{
     padding:10px;
+}
+#map{
+    height:200px !important;
+    width:100% !important;
 }
 
 .inlinegroup{
