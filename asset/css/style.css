@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
         position: relative;
-        font-size: 16px;
+        font-size: 18px;
 }
 
 .nav-item{
@@ -11,7 +11,7 @@ body{
 
 .nav-link{
     font-family: 'Poppins', sans-serif;
-/* font-size:16px; */
+     font-size:18px; 
 color:white;
 padding:30px 0 !important;
 font-weight: 400;
@@ -60,14 +60,6 @@ img{
     margin-right:35px;
 }
 
-
-
-.main-menu{
-width:100%;
-position: absolute;
-transition: 1s all;
-z-index: 15;
-}
 
 .dropdown-menu{
     left: auto;
@@ -185,25 +177,7 @@ display: inline-block;
 .heroSlider .owl-dots .owl-dot.active{
 background-color: white;
 }
-.heroText{
-position: absolute;
-top:40%;
-z-index: 11;
-color:white;
-font-weight: 500;
-width:100%;
-text-align: center;
-}
-.heroText span{
-    font-size:3em;
-    background-color:#8fd445 ;
-    padding:5px;
- 
-}
-.heroText p{
-font-size:38px;
-margin-bottom: 25px;
-}
+
 .workSection{
     padding-top:75px;
     background-color:#f9f9f9;
@@ -1269,6 +1243,141 @@ a:hover{
 .margin-row{
     margin-bottom:30px;
 }
+/***************************************/
+.navbar-brand  span{
+    margin-left:20px;
+    color:#8fd445;
+    font-size:20px;
+    font-weight: bold;
+
+}
+.social .Donate {
+    background-color: #8fd445 !important;
+    border-radius: 40px;
+    font-size: 1.125em;
+    color: white;
+    border: 0;
+    padding: 3px 29px;
+    line-height: 37px;
+}
+.search{
+    display: inline-block;
+    position: relative;
+}
+.search i{
+    color: #6eb83f;
+    font-size: 20px;
+    margin-left: 39px;
+    cursor: pointer;
+}
+
+.search .form-control{
+    position: absolute;
+    bottom:0;
+    left:0;
+    display: none;;
+}
+.scrollNav{
+    height:110px;
+}
+.nav-link{
+    color:black !important;
+}
+.main-menu{
+    background-color:white;
+    height:110px
+}
+.navbar-brand img{
+    width:85px;
+}
+.hero{
+    background-color: #6eb83f;
+    height: 500px;}
+.hero:before{
+    content:"";
+    background-image: url("../img/herobg.jpg");
+    width:50%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+.heroText{
+    padding:100px 0;
+    width:50%;
+background-color:#6eb83f;
+    color:white;
+    font-weight: 500;
+    text-align: center;
+    float: right;
+    }
+    .heroText span{
+        font-size:3em;
+        background-color:#8fd445 ;
+        padding:5px;
+     
+    }
+    .heroText p{
+    font-size:38px;
+    margin-bottom: 25px;
+    }
+    .main-menu{
+        width:100%;
+        transition: 1s all;
+        z-index: 15;
+        }
+
+        .subscribeSec{
+            padding:30px 0;
+            background-color:#6eb83f
+        }
+        .subscribeSec h5{
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #fff;
+            padding: 13px 0px;
+        }
+        .subscribeForm{
+            position: relative;
+        }
+        .subscribeForm .form-control{
+            width:80%;
+            display: inline-block;
+            background-color:transparent;
+            border:1px solid white;
+            height:40px;
+            margin-bottom: 20px;
+        }
+        .subscribeForm .form-control::placeholder{
+            color:white;
+        }
+        .subscribeForm button{
+            padding:15px;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: normal;
+            color: #fff;
+       cursor: pointer;
+            vertical-align: middle;
+            background-color: transparent;
+            border: 0;
+            border:1px solid white;
+            transition:all .3s ease-in-out;}        
+        .subscribeForm button:hover{
+            background-color: black;
+            border:1px solid transparent;
+            transition:all .3s ease-in-out;
+
+           
+        }
+        .subscribeForm button i {
+            margin-right: 15px;
+            font-size: 16px;
+            color: #fff;
+            margin-top: 1px;}
+
 /********************************************/
  @media (max-width: 767px){
      .navbar-toggler{

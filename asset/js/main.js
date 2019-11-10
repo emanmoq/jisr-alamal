@@ -155,6 +155,9 @@ $(document).ready(function () {
 });
 
 
+$(".search i").click(function(){
+  $(".search .form-control").css("display","block");
+})
 });
 
                 
