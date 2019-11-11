@@ -1273,9 +1273,14 @@ a:hover{
 
 .search .form-control{
     position: absolute;
-    bottom:0;
-    left:0;
-    display: none;;
+    bottom: -60px;
+    right: 0;
+    display: none;
+    width: 180px;
+    height: 46px;
+    z-index: 66666;
+    background-color: white;
+    border: 1px solid #6eae62;
 }
 .scrollNav{
     height:110px;
@@ -1377,7 +1382,42 @@ background-color:#6eb83f;
             font-size: 16px;
             color: #fff;
             margin-top: 1px;}
-
+        
+            .dropdown-menu{
+                background-color:white;
+            }
+.dropdown-menu .dropdown-item{
+    color:black;
+}
+.dropdown-menu .dropdown-item:hover,.dropdown-menu .dropdown-item.active{
+    background-color:#6eb83f
+}
+.linksBox{
+    padding:20px;
+    background-color:white;
+}
+.linksBox h4{
+font-size:26px;
+font-weight: bold;
+}
+.LinksList{
+    margin-top:20px;
+    padding: 0;
+    margin:0;
+}
+.LinksList li{
+    list-style-type: none;
+    border-bottom: 1px solid #f0f2f7;
+    padding:10px 0;
+}
+.LinksList li:hover{
+ background-color:#6eae62
+}
+.LinksList li:hover a{
+color:white   }
+.LinksList li a {
+    color: #6eb83f;
+}
 /********************************************/
  @media (max-width: 767px){
      .navbar-toggler{
