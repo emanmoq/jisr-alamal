@@ -3,12 +3,23 @@
     .social .nav-item{
         margin-right:5px;
     }
-
-
-
-
     body{
         font-size: 14px;
     
     }
+  
+}
+@media (max-width: 767px){
+    .hero {
+        height: 300px;}
+        .hero:before {
+            width:100% !important;
+}
+.heroText{
+    width:100% !important;
+    float: none !important;
+    background-color:transparent !important;
+    position: absolute;
+    top:15% !important;
+}
 }
